@@ -1,0 +1,14 @@
+{
+  "name": "dojer",
+  "description": "A 32x32 game where you must avoid the walls by jumping and switching above and below.",
+  "repository": "https://github.com/jackrugile/dojer.git",
+  "homepage": "https://jackrugile.com/dojer/",
+  "author": "Jack Rugile <jack@jackrugile.com> (https://jackrugile.com)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "http-server -c-1 -a localhost"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
