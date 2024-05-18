@@ -23,7 +23,7 @@ Boot State
     this.total = 0;
 
     g.audio.music = new Howl({
-      urls: ["audio/music.ogg", "audio/music.mp3", "audio/music.wav"],
+      urls: ["audio/music.ogg", "audio/music.mp3"],
       volume: 1,
       autoplay: true,
       loop: true,
@@ -34,7 +34,7 @@ Boot State
     this.total++;
 
     g.audio.click = new Howl({
-      urls: ["audio/click.ogg", "audio/click.mp3", "audio/click.wav"],
+      urls: ["audio/click.ogg", "audio/click.mp3"],
       volume: 0.3,
       onload: function () {
         _this.loadAudio(_this);
@@ -43,7 +43,7 @@ Boot State
     this.total++;
 
     g.audio.land = new Howl({
-      urls: ["audio/land.ogg", "audio/land.mp3", "audio/land.wav"],
+      urls: ["audio/land.ogg", "audio/land.mp3"],
       volume: 0.2,
       onload: function () {
         _this.loadAudio(_this);
@@ -52,7 +52,7 @@ Boot State
     this.total++;
 
     g.audio.start = new Howl({
-      urls: ["audio/start.ogg", "audio/start.mp3", "audio/start.wav"],
+      urls: ["audio/start.ogg", "audio/start.mp3"],
       volume: 0.5,
       onload: function () {
         _this.loadAudio(_this);
@@ -61,7 +61,7 @@ Boot State
     this.total++;
 
     g.audio.jump = new Howl({
-      urls: ["audio/jump.ogg", "audio/jump.mp3", "audio/jump.wav"],
+      urls: ["audio/jump.ogg", "audio/jump.mp3"],
       volume: 0.65,
       onload: function () {
         _this.loadAudio(_this);
@@ -70,7 +70,7 @@ Boot State
     this.total++;
 
     g.audio.switch = new Howl({
-      urls: ["audio/switch.ogg", "audio/switch.mp3", "audio/switch.wav"],
+      urls: ["audio/switch.ogg", "audio/switch.mp3"],
       volume: 0.65,
       onload: function () {
         _this.loadAudio(_this);
@@ -79,7 +79,7 @@ Boot State
     this.total++;
 
     g.audio.score = new Howl({
-      urls: ["audio/score.ogg", "audio/score.mp3", "audio/score.wav"],
+      urls: ["audio/score.ogg", "audio/score.mp3"],
       volume: 0.45,
       onload: function () {
         _this.loadAudio(_this);
@@ -88,7 +88,7 @@ Boot State
     this.total++;
 
     g.audio.death = new Howl({
-      urls: ["audio/death.ogg", "audio/death.mp3", "audio/death.wav"],
+      urls: ["audio/death.ogg", "audio/death.mp3"],
       volume: 0.35,
       onload: function () {
         _this.loadAudio(_this);
