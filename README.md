@@ -8,7 +8,6 @@ A 32x32 game where you must avoid the walls by jumping and switching above and b
 
 **Move, Play:** WASD/Arrows\
 **Mute:** M\
-**Pause:** P\
-**Debug:** 0
+**Pause:** P
 
 Created for #LOWREZJAM 2014 - Create a game with a maximum screen resolution of 32x32 pixels.
