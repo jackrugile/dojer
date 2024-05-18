@@ -80,9 +80,6 @@ Game
       "ESC",
     ]);
 
-    // setup mouse tracking
-    g.mouse = new g.Mouse();
-
     // set the initial state and get things going
     g.lastState = null;
     g.setState(g.config.state);
@@ -137,6 +134,5 @@ Game
     g.ctx.fillRect(0, 0, g.width, g.height / 2);
   };
 
-  //window.addEventListener( 'load', g.init, false );
   g.init();
 })();

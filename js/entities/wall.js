@@ -44,7 +44,7 @@ Wall Entity
   g.Wall.prototype.render = function () {
     if (this.set.scored) {
       g.ctx.fillStyle =
-        g.util.roundToNearest(this.state.time.tick, 4) % 8 == 0
+        g.util.roundToNearest(this.state.time.nelapsed, 4) % 8 == 0
           ? this.color
           : this.oppositeColor;
     } else {

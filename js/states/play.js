@@ -40,21 +40,21 @@ Play State
 
     // wall configurations
     this.wallConfigs = [
-      //[ 1, 0, 0, 0 ], too easy
+      //[ 1, 0, 0, 0 ], // too easy
       [0, 1, 0, 0],
       [0, 0, 1, 0],
-      //[ 0, 0, 0, 1 ], too easy
+      //[ 0, 0, 0, 1 ], // too easy
       [1, 1, 0, 0],
       [0, 1, 1, 0],
       [0, 0, 1, 1],
-      //[ 1, 0, 0, 1 ], too easy
+      //[ 1, 0, 0, 1 ], // too easy
       [1, 0, 1, 0],
       [0, 1, 0, 1],
       [0, 1, 1, 0],
       [1, 1, 1, 0],
       [0, 1, 1, 1],
-      //[ 1, 0, 1, 1 ], too hard
-      //[ 1, 1, 0, 1 ] too hard
+      //[1, 0, 1, 1], // too hard
+      //[1, 1, 0, 1], // too hard
     ];
 
     // setup wall pool

@@ -41,7 +41,7 @@ Wall Set Entity
 
   g.WallSet.prototype.update = function (i) {
     if (!this.state.hero.dead) {
-      this.x += this.vx; // * this.state.time.delta;
+      this.x += this.vx * this.state.time.ndelta;
     }
     this.walls.each("update");
     this.checkBounds(i);

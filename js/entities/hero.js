@@ -62,14 +62,14 @@ Hero Entity
         }
       }
 
-      this.vy += this.gravity;
+      this.vy += this.gravity * this.state.time.ndelta;
     } else {
       this.vx = 0;
       this.vy = 0;
     }
 
-    this.x += this.vx; // * this.state.time.delta;
-    this.y += this.vy; // * this.state.time.delta;
+    this.x += this.vx * this.state.time.ndelta;
+    this.y += this.vy * this.state.time.ndelta;
 
     // lock bounds
     this.lockBounds();
@@ -107,7 +107,7 @@ Hero Entity
 
     if (this.dead) {
       g.ctx.fillStyle =
-        g.util.roundToNearest(this.state.time.tick, 2) % 4 == 0
+        g.util.roundToNearest(this.state.time.nelapsed, 2) % 4 == 0
           ? "#000"
           : "#fff";
     } else {
