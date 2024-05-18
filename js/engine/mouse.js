@@ -4,9 +4,8 @@ Mouse
 
 ==============================================================================*/
 
-(function(){ 'use strict';
+(function () {
+  "use strict";
 
-	g.Mouse = function() {
-	}
-
-}());
+  g.Mouse = function () {};
+})();
