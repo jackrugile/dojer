@@ -75,7 +75,6 @@ Keys
   };
 
   g.Keys.prototype.keydown = function (_this, e) {
-    e.preventDefault();
     var e = e.keyCode ? e.keyCode : e.which;
     for (var i = 0; i < _this.trackedKeysLength; i++) {
       if (e == _this.map[_this.trackedKeys[i]]) {
@@ -85,7 +84,6 @@ Keys
   };
 
   g.Keys.prototype.keyup = function (_this, e) {
-    e.preventDefault();
     var e = e.keyCode ? e.keyCode : e.which;
     for (var i = 0; i < _this.trackedKeysLength; i++) {
       if (e == _this.map[_this.trackedKeys[i]]) {
